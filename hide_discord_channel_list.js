@@ -16,7 +16,6 @@ function loadJQuery(document) {
      document.body.appendChild(script_jQuery);
 }
 
-console.log("test")
 window.onload = function() {
   loadJQuery(document);
 }
